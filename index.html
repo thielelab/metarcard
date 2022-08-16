@@ -24,6 +24,7 @@
   <body>
     
     <!-- Showcase -->
+    
     <section
       class="p-5 p-lg-0 pt-lg-5 text-center text-sm-start" style="color: #FFFFFF;background-color:#3c85c9;"
     >
@@ -36,33 +37,120 @@
               properties and annotations, as defined by MEMOTE (<a href="https://www.nature.com/articles/s41587-020-0446-y/" target="_blank" 
               style="color: #FFFFFF">Lieven et al., Nat Biotech., 2020</a>). We are continuously expanding the set of tests performed on the metabolic 
               reconstructions and their derived models.
-              The reports have been generated using the COBRA Toolbox v3 and link to the Virtual Metabolic Human Knowledge base.
+              The reports have been generated using the COBRA Toolbox v3 (<a href="https://www.nature.com/articles/s41596-018-0098-2" target="_blank" style="color: #FFFFFF">Heirendt et al., Nat Protoc, 2019</a>) 
+              and link to the Virtual Metabolic Human Knowledgebase (<a href="https://academic.oup.com/nar/article/47/D1/D614/5146204" target="_blank" style="color: #FFFFFF">Noronha et al., Nucl Ac Res, 2019</a>).
             </p>
           
       </div>
     </section>
 
   </section>
-    
 
   <section class=" text-center text-sm-start" style="color:#3c85c9">>
       <div class="container">
         <?php include "bin/form_report.html" ?>
   </div>
   </section>
-
+<BR><BR><BR><BR>
+  
+  <section
+  class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+>
+  <div class="container">
+    <div class="d-sm-flex align-items-center justify-content-between">
+      <div>
+        <h3 class="text-center">Average Scores of the <span style="color: #3c85c9"> AGORA 2 resource metabolic reconstructions </span></h3>
+      </div>
+    </div>  
+    <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card" style="color: #FFFFFF;background-color:#063e72;">
+              <div class="card-body text-center">
+                <h1 class="card-text ">
+                  73.09 &#x25;
+                </h1>
+                <h4 class="card-title mb-3">Overall <br>Score</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card "  style="color: #FFFFFF;background-color:#2766a0;">
+              <div class="card-body text-center">
+                <h1 class="card-text">
+                  92.4 &#x25;
+                </h1>
+                <h4 class="card-title mb-3">Consistency <br>Score</h3>
+              </div>
+            </div>
+          </div>              
+          <div class="col-md">
+            <div class="card " style="color: #FFFFFF;background-color:#3d7cb8;">
+              <div class="card-body text-center">
+                <h1 class="card-text">
+                  77.41 &#x25;
+                </h1>
+                <h4 class="card-title mb-3">Metabolite <br>Score</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card "  style="color: #FFFFFF;background-color:#4f91cf;">
+              <div class="card-body text-center">
+                <h1 class="card-text">
+                 42.66 &#x25;
+                </h1>
+                <h4 class="card-title mb-3">Reaction <br>Score</h3>
+              </div>
+            </div>
+            </div>
+            
+          <div class="col-md">
+            <div class="card "  style="color: #FFFFFF;background-color:#6aabe9;">
+              <div class="card-body text-center">
+                <h1 class="card-text">
+                 5.26 &#x25;
+                </h1>
+                <h4 class="card-title mb-3">Gene <br>Score</h3>
+              </div>
+            </div>
+            </div>
+            <div class="col-md">
+                <div class="card " style="color: #FFFFFF;background-color:#8ac5fc;">
+                  <div class="card-body text-center">
+                    <h1 class="card-text">
+                     91.08 &#x25;
+                    </h1>
+                    <h4 class="card-title mb-3">SBO Term Score</h3>
+                  </div>
+                </div>
+        </div>
+      </div>
+  </div>
+</section>
 
     <!-- Footer -->
     <footer class="p-2 text-center fixed-bottom" style="color: #FFFFFF;background-color:#3c85c9;">
-      <div class="container">
-        <p class="lead">Powered by the <a href="https://vmh.life" target="_blank" style="color: #FFFFFF">VMH</a> and the
-          <a href="https://opencobra.github.io/cobratoolbox/stable/" target="_blank" style="color: #FFFFFF"> COBRA Toolbox</a>  </p>
+     
+        <div class="row align-items-end">
+          <div class="col">
+           <p><img src="img/Banner.jpg" height="80">           
+           <img src="img/COBRAToolboxlogo_matlab.svg" height="80"></p>
 
-        <p class="lead">Copyright &copy; 2022 <a href="https://thielalb.eu" target="_blank" style="color: #FFFFFF">ThieleLab@NUI Galway, Ireland. </a></p>
+          </div>
+          <div class="col">
+            <p class="lead">Powered by the <a href="https://vmh.life" target="_blank" style="color: #FFFFFF">VMH</a> and the
+              <a href="https://opencobra.github.io/cobratoolbox/stable/" target="_blank" style="color: #FFFFFF"> COBRA Toolbox</a>  </p>
+    
+            <p class="lead">Copyright &copy; 2022 <a href="https://thielalb.eu" target="_blank" style="color: #FFFFFF">ThieleLab@NUI Galway, Ireland. </a></p>
+          </div>
+          <div class="col">
+            <p>          
+              <img src="img/apc.jfif" height="80">
+              <img src="img/nuig.jfif" height="80"> </p>
+          </div>
 
-        <a href="#" class="position-absolute bottom-0 end-0 p-2">
-          <i class="bi bi-arrow-up-circle h1"></i>
-        </a>
+       
       </div>
     </footer>
 
