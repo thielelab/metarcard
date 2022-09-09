@@ -31,6 +31,7 @@ function read_reportDirectory($dir){
           }
         closedir($dh);
         }
+        $reportList = sort($reportList);
     return $reportList;
     }
     else{
